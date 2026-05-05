@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/poll-facebook",
+      "schedule": "*/15 * * * *"
+    },
+    {
+      "path": "/api/cron/send-notifications",
+      "schedule": "*/5 * * * *"
+    }
+  ]
+}
